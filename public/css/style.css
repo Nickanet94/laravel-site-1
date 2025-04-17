@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.index {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.auth-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+input.error {
+    border-color: #e74c3c;
+}
+
+button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.error-message {
+    color: #e74c3c;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+
+.links {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.links a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.secondary-button {
+    background-color: #95a5a6;
+}
+
+.secondary-button:hover {
+    background-color: #7f8c8d;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.doctor-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.appointment-form {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px dashed #ccc;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    padding: 8px 16px;
+    margin: 0 4px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+
+.pagination a.active {
+    background-color: #3498db;
+    color: white;
+    border: 1px solid #3498db;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.last-added-message {
+    border-left: 5px solid #2196F3;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+table {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}

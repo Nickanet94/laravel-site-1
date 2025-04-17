@@ -1,0 +1,6 @@
+{
+    "user1": { "password": "123", "created_at": "2023-05-20 10:00:00" },
+    "user2": { "password": "qwerty456", "created_at": "2023-05-21 11:30:00" },
+    "nick": { "password": "9415", "created_at": "2025-04-17 10:46:24" },
+    "admin": { "password": "admin", "created_at": "2025-04-17 10:46:24" }
+}
